@@ -1,0 +1,11 @@
+
+body { background:#111; color:#eee; font-family:Arial; margin:0; }
+header { background:#000; padding:10px; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; }
+.logo { height:60px; filter:drop-shadow(0 0 5px red); }
+nav ul { display:flex; gap:20px; list-style:none; }
+nav a { color:red; text-decoration:none; font-weight:bold; transition:0.3s; }
+nav a:hover { color:white; transform:scale(1.1); }
+section { padding:40px; }
+h2 { color:red; text-shadow:0 0 10px red; }
+.albums img { width:200px; margin:10px; transition:0.3s; }
+.albums img:hover { transform:scale(1.1); filter:brightness(1.3); }
